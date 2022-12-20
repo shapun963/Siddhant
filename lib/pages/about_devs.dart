@@ -73,7 +73,7 @@ class _AboutDevsPageState extends State<AboutDevsPage> {
                       padding: const EdgeInsets.all(8.0),
                       child: ElevatedButton.icon(
                           onPressed: () {
-                            launchUrl(mode:LaunchMode.externalApplication,Uri.parse('https://github.com/shapun963'));
+                            launchUrl(mode:LaunchMode.externalApplication,Uri.parse('https://github.com/shapun963/siddhant'));
                           },
                           icon: const Icon(Icons.open_in_browser),
                           label: const Text("View SourceCode on Github"),),
